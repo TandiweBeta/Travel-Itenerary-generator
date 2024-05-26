@@ -7,6 +7,7 @@
   <title>Travel Itinerary Generator</title>
 </head>
 <body>
+  <div class="container">
   <header>
     <h1>AI Travel Itinerary Generator</h1>
   </header>
@@ -14,16 +15,21 @@
     <form>
       <input
       type="text"
-      placeholder="Enter the place you would like to visit"
+      placeholder="Enter a place you would like to visit"
       autofocus
       required
       autocomplete="off"
+      class="instructions"
       />
-      <input type="submit"/>
+      <input type="submit" class="submit-button"/>
       </form>
-      <div>
-
+      
+      <div class="Itinerary">
+      Day 1 <br>
+      Day 2<br>
+      Day 3
       </div>
+    
     
   </main>
   <footer>
@@ -34,6 +40,7 @@
      and hosted on
      <a href="https://mytravelitinerary.netlify.app/" target="_blank">Netlify</a> 
   </footer>
+  </div>
   <script src="src/app.js"></script>
 </body>
 </html>
