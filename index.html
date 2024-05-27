@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.21.0/core.min.js"></script>
   <title>Travel Itinerary Generator</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <h1>AI Travel Itinerary Generator</h1>
   </header>
   <main>
-    <form>
+    <form id="itinerary-generator-form">
       <input
       type="text"
       placeholder="Enter a place you would like to visit"
@@ -23,11 +24,8 @@
       />
       <input type="submit" class="submit-button"/>
       </form>
-      
-      <div class="Itinerary">
-      Day 1 <br>
-      Day 2<br>
-      Day 3
+
+      <div class="Itinerary" id="itinerary">
       </div>
     
     
