@@ -17,14 +17,24 @@ h1{
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #272044;
-}
-form{
-  padding: 30px;
+  color: black;
+} 
+.form-container{
+ padding: 15px 20px;
   background-color: white;
   border-radius: 10px;
+   margin-bottom: 30px;
+}
+form{
+ 
   display: flex;
-  margin-bottom: 30px;
+ 
+}
+.hint{
+ line-height: 1.5;
+ margin-top: 5px;
+ opacity: 0.6;
+ font-size: 12px; 
 }
 .instructions{
   padding: 16px;
@@ -32,7 +42,8 @@ form{
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color:#272044;
+  color:bla;
+  border: 1px solid #47a20e;
 }
 .submit-button{
   margin-left: 10px;
@@ -48,14 +59,35 @@ form{
 .Itinerary{
   font-size: 16px;
   background: #fff;
-  padding: 20px;
+  padding:30px;
   line-height: 24px;
   border-left: 3px solid #47a20e;
-  box-shadow: 0px 20px 60px rgba(65 50 100 0.03);
+  
 }
 .Itinerary strong {
   color:#47a20e;
 }
+.Itinerary small{
+  color:#47a20e
+}
+.hidden{
+display: none;
+}
+.generating{
+  animation: blink 1s infinite;
+}
+@keyframes blink{
+  0%{
+    opacity: 1;
+  }
+50% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+  }
+}
+
 footer{
   text-align: center;
   margin-top: 30px;
